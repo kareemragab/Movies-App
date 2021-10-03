@@ -4,9 +4,7 @@ const Stack = createStackNavigator()
 
 import SplashView from '../Screens/Splash/splashView'
 import Home from '../Screens/Home/Home'
-// import Movie from './Screens/Movie';
 import AddMovie from '../Screens/AddMovie/AddMovie'
-// import Search from './Screens/Search';
 
 export default Routes = () => {
     return (
@@ -42,28 +40,7 @@ export default Routes = () => {
                     },
                 }}
             />
-            {/*       
-      <Stack.Screen
-        name="Movie"
-        component={Movie}
-        options={{
-          header: () => {},
-          headerStyle: {
-            height: 0,
-          },
-        }}
-      />
-     
-      <Stack.Screen
-        name="Search"
-        component={Search}
-        options={{
-          header: () => {},
-          headerStyle: {
-            height: 0,
-          },
-        }}
-      /> */}
+    
         </Stack.Navigator>
     )
 }
