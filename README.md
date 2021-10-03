@@ -11,5 +11,5 @@ npx react-native run-android <br />
 cd Movies-App <br />
 yarn install <br />
 npx react-native start <br />
-npx react-native run-ios  <br />
+npx react-native run-ios  
 
